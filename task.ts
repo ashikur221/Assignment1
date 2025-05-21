@@ -1,8 +1,8 @@
-const formatString = (givenString: string, option: boolean = true): string => {
-  if (option) {
-    return givenString.toUpperCase();
+function formatString(input: string, toUpper: boolean = true): string{
+  if (toUpper) {
+    return input.toUpperCase();
   } else {
-    return givenString.toLowerCase();
+    return input.toLowerCase();
   }
 }
 
