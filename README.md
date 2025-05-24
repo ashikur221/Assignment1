@@ -1,4 +1,4 @@
-#The difference between interface and types are given below:
+# The difference between interface and types are given below:
 
 the interface can extend other interface or types but in type need to intersection. In this way both can mutate to a different kind of each type.
 
